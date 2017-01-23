@@ -1,0 +1,103 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarTabTextStyle">@style/My.TabText.Style</item>
+        <item name="android:actionBarTabTextStyle">@style/My.TabText.Style</item>
+        <item name="android:textColorPrimary">@color/cor13</item>
+        <item name="android:textColorSecondary">@color/colorTexto01</item>
+    </style>
+        <!--<item name="textColorPrimary">@color/colorTexto01</item>-->
+    <!--<style name="meupotencialbar" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--&lt;!&ndash;<item name="textColorPrimary">@color/colorTexto01</item>&ndash;&gt;-->
+    <!--</style>-->
+    <style name="Abertura" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cor01</item>
+        <item name="colorPrimaryDark">@color/cor02</item>
+        <item name="colorAccent">@color/cor03</item>
+        <!--<item name="statusBarColor">@color/cor04</item>-->
+    </style>
+    <style name="My.TabText.Style" parent="@style/Widget.AppCompat.Light.ActionBar.TabText">
+        <!--<item name="android:textAppearance">@android:style/TextAppearance.Medium</item>-->
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/cor04</item>
+        <item name="android:textAllCaps">false</item>
+        <!-- <item name="android:ellipsize">none</item> -->
+        <item name="android:maxLines">1</item>
+    </style>
+
+
+    <style name="Fragment01" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cor11</item>
+        <item name="colorPrimaryDark">@color/cor12</item>
+        <item name="colorAccent">@color/cor13</item>
+        <!--<item name="statusBarColor">@color/cor14</item>-->
+    </style>
+    <style name="Fragment02" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cor21</item>
+        <item name="colorPrimaryDark">@color/cor22</item>
+        <item name="colorAccent">@color/cor23</item>
+        <!--<item name="statusBarColor">@color/cor24</item>-->
+    </style>
+    <style name="Fragment03" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cor31</item>
+        <item name="colorPrimaryDark">@color/cor32</item>
+        <item name="colorAccent">@color/cor33</item>
+        <!--<item name="statusBarColor">@color/cor34</item>-->
+    </style>
+    <style name="Fragment04" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cor41</item>
+        <item name="colorPrimaryDark">@color/cor42</item>
+        <item name="colorAccent">@color/cor43</item>
+        <!--<item name="statusBarColor">@color/cor44</item>-->
+    </style>
+    <style name="Fragment05" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cor51</item>
+        <item name="colorPrimaryDark">@color/cor52</item>
+        <item name="colorAccent">@color/cor53</item>
+        <!--<item name="statusBarColor">@color/cor54</item>-->
+    </style>
+    <style name="Fragment06" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cor61</item>
+        <item name="colorPrimaryDark">@color/cor62</item>
+        <item name="colorAccent">@color/cor63</item>
+        <!--<item name="statusBarColor">@color/cor64</item>-->
+    </style>
+    <style name="Fragment07" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cor71</item>
+        <item name="colorPrimaryDark">@color/cor72</item>
+        <item name="colorAccent">@color/cor73</item>
+        <!--<item name="statusBarColor">@color/cor74</item>-->
+    </style>
+    <style name="Resultado" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/cor71</item>
+    <item name="colorPrimaryDark">@color/cor72</item>
+    <item name="colorAccent">@color/cor73</item>
+    <!--<item name="statusBarColor">@color/cor74</item>-->
+</style>
+    <style name="Historico" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/cor01</item>
+        <item name="colorPrimaryDark">@color/cor02</item>
+        <item name="colorAccent">@color/cor03</item>
+        <!--<item name="statusBarColor">@color/cor04</item>-->
+    </style>
+
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_1"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:padding="0dp"
+    android:id="@+id/tela1a"
+    android:orientation="vertical"
+    app:theme="@style/Fragment01">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mask_1"
+        android:id="@+id/tela1"
+        android:orientation="vertical"
+        android:layout_margin="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        tools:gravity="center"
+        android:gravity="center"
+        android:padding="0dp"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingStart="0dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="0dp"
+        android:baselineAligned="false">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:id="@+id/titulo1"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/Titulo1_dim"
+            android:text="@string/titulo1"
+            android:layout_marginTop="27sp"
+            android:layout_marginBottom="26sp"
+            android:textColor="@color/colorTexto01" />
+
+        <ImageView
+            android:id="@+id/icone_1"
+            app:srcCompat="@drawable/icone_1"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/titulo1"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginTop="18dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textStyle="bold"
+            android:text="@string/ResultadoInicial"
+            android:textSize="@dimen/texto_A"
+            android:textColor="@color/colorTexto01"/>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/Propaganda_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/Id_Propaganda_1"
+            >
+
+        </com.google.android.gms.ads.AdView>
+        <TextView
+            android:id="@+id/descricao1"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:text="@string/texto1"
+            android:textAlignment="center"
+            android:textSize="@dimen/texto_C"
+            android:textColor="@color/colorTexto01"
+            android:layout_marginBottom="18dp"
+            android:layout_above="@+id/Propaganda_1"
+            android:layout_centerHorizontal="true" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="0"
+            android:max="9"
+            android:progressBackgroundTint="@color/colorTexto01"
+            android:progressTint="@color/colorTexto01"
+            android:thumb="@android:drawable/star_on"
+            android:thumbTint="@color/colorTexto01"
+            android:paddingEnd="30sp"
+            android:paddingRight="30sp"
+            android:paddingStart="30sp"
+            android:paddingLeft="30sp"
+            android:indeterminate="false"
+            android:layout_above="@+id/descricao1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="24dp" />
+
+
+        <Button
+            android:id="@+id/voltar"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:text="Voltar"
+            android:onClick="proximo"/>
+
+        <Button
+            android:id="@+id/proximo"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:text="Proximo"
+            android:onClick="proximo"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

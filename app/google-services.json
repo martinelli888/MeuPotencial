@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "240379693909",
+    "firebase_url": "https://admob-app-id-9630685319.firebaseio.com",
+    "project_id": "admob-app-id-9630685319",
+    "storage_bucket": "admob-app-id-9630685319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240379693909:android:1c806a0e2c77f5f5",
+        "android_client_info": {
+          "package_name": "com.pergaminhos.appergarminho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240379693909-l681edit7stdie615pfmf2enjqh6to0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc3tMDWXD9sHvMld1kW4ezU1OTNHhQbTQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240379693909:android:d7ceefa9e5fe2a28",
+        "android_client_info": {
+          "package_name": "com.gaivotas.meutestedebanner1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240379693909-l681edit7stdie615pfmf2enjqh6to0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc3tMDWXD9sHvMld1kW4ezU1OTNHhQbTQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240379693909:android:4673974d93f958b5",
+        "android_client_info": {
+          "package_name": "meupotencial.com.br.meupotencial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "240379693909-l681edit7stdie615pfmf2enjqh6to0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc3tMDWXD9sHvMld1kW4ezU1OTNHhQbTQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

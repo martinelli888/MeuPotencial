@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#66B1C2</color>
+    <color name="colorPrimaryDark">#075a63</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorTexto01">#ffffff</color>
+    <!--<color name="statusBarColor">#3F51B5</color>-->
+
+    <!--Tela Abertura-->
+    <color name="cor01">#66b1c2</color>
+    <color name="cor02">#075A63</color>
+    <color name="cor03">#7e7e7e</color>
+    <color name="cor04">#ffffff</color>
+
+    <!--Fragment1-fisico-->
+    <color name="cor11">#947401</color>
+    <color name="cor12">#f76b1c</color>
+    <color name="cor13">#ffffff</color>
+    <!--Fragment2-->
+    <color name="cor21">#eae2d6</color>
+    <color name="cor22">#d5c3aa</color>
+    <color name="cor23">#ffffff</color>
+    <!--Fragment3-->
+    <color name="cor31">#eae2d6</color>
+    <color name="cor32">#d5c3aa</color>
+    <color name="cor33">#ffffff</color>
+    <!--Fragment4-->
+    <color name="cor41">#eae2d6</color>
+    <color name="cor42">#d5c3aa</color>
+    <color name="cor43">#ffffff</color>
+    <!--Fragment5-->
+    <color name="cor51">#eae2d6</color>
+    <color name="cor52">#d5c3aa</color>
+    <color name="cor53">#ffffff</color>
+    <!--Fragment6-->
+    <color name="cor61">#eae2d6</color>
+    <color name="cor62">#d5c3aa</color>
+    <color name="cor63">#ffffff</color>
+    <!--Fragment7-->
+    <color name="cor71">#eae2d6</color>
+    <color name="cor72">#d5c3aa</color>
+    <color name="cor73">#cbe7ec</color>
+    <!--Resultado-->
+
+    <!--demais cores-->
+
+
+    <!--/cores menu-->
+    <!--<color name="primary_dark">#e1b80d</color>-->
+
+
+    <!-- aqui tem uma segudna opcao-->
+
+</resources>

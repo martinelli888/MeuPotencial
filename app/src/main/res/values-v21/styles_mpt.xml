@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="Theme.Mpt.Widget" parent="@style/Theme.AppCompat">
+                <item name="android:popupMenuStyle">@style/PopupMenu.Mpt</item>
+                <item name="android:dropDownListViewStyle">@style/DropDownListView.Mpt</item>
+                <item name="colorPrimaryDark">@color/cor01</item>
+                <item name="android:textColorSecondaryInverse">@color/colorTexto01</item>
+                <item name="android:textColorPrimaryInverse">@color/colorTexto01</item>
+                <item name="android:windowBackground">?android:attr/textColorPrimary</item>
+                <item name="android:navigationBarColor">?android:attr/textColorPrimary</item>
+                <item name="android:colorBackground">@color/colorTexto01</item>
+        </style>
+</resources>

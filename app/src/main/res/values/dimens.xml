@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="Titulo1_dim">36sp</dimen>
+    <dimen name="texto_A">22sp</dimen>
+    <dimen name="texto_B">18sp</dimen>
+    <dimen name="texto_C">14sp</dimen>
+    <dimen name="texto_D">12sp</dimen>
+
+    <dimen name="nota_dim">12sp</dimen>
+    <dimen name="resultado_dim">20dp</dimen>
+    <dimen name="dica_dim">14sp</dimen>
+    <dimen name="descricao_dim">45sp</dimen>
+    <dimen name="texto2_dim">30sp</dimen>
+
+
+
+
+
+</resources>

@@ -1,0 +1,152 @@
+<resources>
+    <!--//titulos-->
+    <string name="app_name">Meu Potencial</string>
+    <string name="app_name1">Meu Potencial</string>
+    <string name="app_name2">Meu Potencial</string>
+
+    <!--//menu e botoes-->
+    <string name="action_settings">Opções</string>
+    <string name="B_Iniciar">Iniciar</string>
+    <string name="B_Salvar">Salvar</string>
+    <string name="B_Limpar">Limpar</string>
+    <string name="B_Historico">Histórico</string>
+    <string name="B_Voltar">Voltar</string>
+    <string name="B_Excluir">Excluir</string>
+    <string name="B_Proximo">Próximo</string>
+    <string name="B_Selecionar">Selecionar</string>
+
+    <!--tela de inicio-->
+   <string name="abertura_mensagem1">A única pessoa com a qual você pode se comparar é com você mesmo no passado</string>
+
+    <!--tela de mensagem inicial-->
+    <string name="aviso1_mensagem1">Como Funciona:</string>
+    <string name="aviso1_mensagem2">Avalie cada área da sua vida separadamente</string>
+    <string name="aviso1_mensagem3">Considere nota 1 para áreas que estão muito abaixo que você deseja</string>
+    <string name="aviso1_mensagem4">Use nota 9 para áreas onde tudo está perfeito e não precisa melhorar</string>
+
+
+
+    <!--Abas-->
+    <string name="titulo1">Física</string>
+    <string name="titulo2">Espiritual</string>
+    <string name="titulo3">Familiar</string>
+    <string name="titulo4">Intelectual</string>
+    <string name="titulo5">Social</string>
+    <string name="titulo6">Profissional</string>
+    <string name="titulo7">Financeira</string>
+
+
+    <string name="texto1">
+    Saúde Física é representada pelo seu bem-estar físico.\n
+    Você esta satisfeito com seu corpo?\n
+    Têm se sentido cansado?\n
+    ou tem grande energia e vitalidade todos os dias?</string>
+
+    <string name="texto2">
+    Como está sua ligação com Deus e o Universo?\n
+    Com que frequência se conecta ao Divino \n
+    e como está sua evolução neste caminho?</string>
+
+    <string name="texto3">
+    Considere sua Família mais próxima:\n
+    seus pais, filhos, irmãos, companheiro(a).\n
+    Existe alguma coisa atrapalhando seu convívio?\n
+    ou você faz parte de um exemplo de família,\n
+    onde todos convivem em harmonia?</string>
+
+    <string name="texto4">
+    Você busca se desenvolver? Estuda? lê livros?\n
+    faz cursos? esta aprendendo alguma coisa nova?</string>
+
+    <string name="texto5">
+    O que tenho feito pelas pessoas carentes?\n
+    Eu ajudo as pessoas de alguma forma?</string>
+
+    <string name="texto6">
+    Você gosta do que faz?\n
+    Você esta onde imaginou?\n
+    Tem alcançados seus objetivos?</string>
+
+    <string name="texto7">
+    Área importantíssima para realizar\n
+    plenamente as outras.\n
+    Você gasta mais do que ganha?\n
+    gasta menos? consegue poupar e investir?</string>
+
+    <!--resultado-->
+    <string name="Resultado_mensagem1">Seu resultado</string>
+    <string name="Resultado_mensagem2">nunca será definitivo!</string>
+    <string name="Resultado_mensagem3">Ele reflete um estado ATUAL.</string>
+
+    <string name="Resultado_mensagem4">Hoje você vive</string>
+    <string name="resultadoFinal">Clique!</string>
+    <string name="Resultado_mensagem6">do seu potêncial</string>
+
+    <string name="Resultado_mensagem7">Quais saúdes você deu notas  baixas?\n
+    o que você pode fazer\n para melhorar esta saúde?</string>
+    <string name="Resultado_mensagem8">CLIQUE AQUI</string>
+    <string name="Resultado_mensagem9">HISTÓRICO</string>
+
+    <!--Resultados Parciais-->
+    <string name="ResultadoInicial">0/9</string>
+    <string name="Resultado1">9</string>
+    <string name="Resultado2">9</string>
+    <string name="Resultado3">9</string>
+    <string name="Resultado4">9</string>
+    <string name="Resultado5">9</string>
+    <string name="Resultado6">9</string>
+    <string name="Resultado7">9</string>
+
+    <!--Histórico-->
+    <string name="T_data">10/10/10</string>
+    <string name="Abrev_Fisica">FIS</string>
+    <string name="Abrev_Espiritual">ESP</string>
+    <string name="Abrev_Familiar">FAM</string>
+    <string name="Abrev_Intelectual">INT</string>
+    <string name="Abrev_Social">SOC</string>
+    <string name="Abrev_Profissional">PRO</string>
+    <string name="Abrev_Financeira">FIN</string>
+
+    <string name="Not_fis">9</string>
+    <string name="Not_esp">9</string>
+    <string name="Not_fam">9</string>
+    <string name="Not_int">9</string>
+    <string name="Not_soc">9</string>
+    <string name="Not_pro">9</string>
+    <string name="Not_fin">9</string>
+<!--resumo-->
+
+    <string name="Dica_titulo">Você pode começar por:</string>
+
+    <string name="Dica_fis">Aqui uma dica para saúde física</string>
+    <string name="Dica_esp">Aqui uma dica para saúde espiritual</string>
+    <string name="Dica_fam">Aqui uma dica para saúde familiar</string>
+    <string name="Dica_int">Aqui uma dica para saúde intelectual</string>
+    <string name="Dica_soc">Aqui uma dica para saúde social</string>
+    <string name="Dica_pro">Aqui uma dica para saúde profissional</string>
+    <string name="Dica_fin">Aqui uma dica para saúde financeira</string>
+
+
+    <!--propaganda-->
+<string name="Propaganda_1">bloco_mp_001_320x50</string>
+    <string name="Id_Propaganda_1">ca-app-pub-6526158567739347/3075789718</string>
+<string name="Propaganda_2">bloco_mp_002_320x50</string>
+    <string name="Id_propaganda_2">ca-app-pub-6526158567739347/1319854915</string>
+<string name="Propaganda_3">bloco_mp_003_320x50</string>
+    <string name="Id_propaganda_3">ca-app-pub-6526158567739347/7226787710</string>
+<string name="Propaganda_4">bloco_mp_004_320x50</string>
+    <string name="Id_propaganda_4">ca-app-pub-6526158567739347/4912449713</string>
+<string name="Propaganda_5">Propaganda5</string>
+    <string name="Id_propaganda_5">ca-app-pub-6526158567739347/4912449713</string>
+<string name="Propaganda_6">Propaganda6</string>
+    <string name="Id_propaganda_6">ca-app-pub-6526158567739347/4912449713</string>
+<string name="Propaganda_7">Propaganda7</string>
+    <string name="Id_propaganda_7">ca-app-pub-6526158567739347/4912449713</string>
+<string name="Propaganda_8">Propaganda8</string>
+    <string name="Id_propaganda_8">ca-app-pub-6526158567739347/4912449713</string>
+<string name="PropCheia_8">Propaganda_cheia8</string>
+    <string name="Id_propaganda_cheia_8">ca-app-pub-GERAR</string>
+<string name="PropCheia_9">Propaganda_cheia8</string>
+    <string name="Id_propaganda_cheia_9">ca-app-pub-GERAR</string>
+
+    </resources>
