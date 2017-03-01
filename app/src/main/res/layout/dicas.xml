@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:paddingLeft="12dp"
+android:paddingRight="12dp"
+android:paddingTop="12dp"
+>
+
+    <TextView
+        android:id="@+id/saude1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="18dp"
+        android:text="_vazio_"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/texto_A"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dica1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/saude1"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="3dp"
+        android:paddingTop="3dp"
+        android:text="_vazio_"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/texto_B"
+        />
+
+    <TextView
+        android:id="@+id/saude2"
+        android:layout_below="@id/dica1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="18dp"
+        android:text="_vazio_"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/cor73"
+        android:textSize="@dimen/texto_A"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dica2"
+        android:paddingTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/saude2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="3dp"
+        android:text="_vazio_"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/texto_B"
+        />
+
+    <TextView
+    android:id="@+id/saude3"
+    android:paddingTop="18dp"
+    android:layout_below="@id/dica2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_vertical"
+    android:text="_vazio_"
+    android:textColor="@color/colorPrimary"
+    android:textColorHint="@color/cor73"
+    android:textSize="@dimen/texto_A"
+    android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dica3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/saude3"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="3dp"
+        android:paddingTop="3dp"
+        android:text="_vazio_"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/texto_B"
+        />
+
+    <TextView
+        android:id="@+id/saude4"
+        android:paddingTop="18dp"
+        android:layout_below="@id/dica3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:text="_vazio_"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/texto_A"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dica4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/saude4"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="3dp"
+        android:paddingTop="3dp"
+        android:text="_vazio_"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/texto_B"></TextView>
+
+    <TextView
+        android:id="@+id/saude5"
+        android:paddingTop="18dp"
+        android:layout_below="@id/dica4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:text="_vazio_"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/texto_A"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dica5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/saude5"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="3dp"
+        android:paddingTop="3dp"
+        android:text="_vazio_"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/texto_B"
+        />
+
+    <TextView
+        android:id="@+id/saude6"
+        android:paddingTop="18dp"
+        android:layout_below="@id/dica5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:text="_vazio_"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/texto_A"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dica6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/saude6"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="3dp"
+        android:paddingTop="3dp"
+        android:text="_vazio_"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/texto_B"
+        />
+
+    <TextView
+        android:id="@+id/saude7"
+        android:paddingTop="18dp"
+        android:layout_below="@id/dica6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:text="_vazio_"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/texto_A"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dica7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/saude6"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="3dp"
+        android:paddingTop="3dp"
+        android:text="_vazio_"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/texto_B"
+        />
+    <!---->
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true">-->
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true">-->
+
+
+    <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical" />-->
+    <!--</ScrollView>-->
+
+
+    <!--<Button-->
+    <!--android:id="@+id/buttonAceitar"-->
+    <!--style="@style/botaoCampo"-->
+    <!--android:layout_width="@dimen/tam_botao_lado"-->
+    <!--android:layout_height="@dimen/tam_botao_altura"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_marginRight="80dp"-->
+    <!--android:text="Aceitar"-->
+    <!--android:textSize="@dimen/altTextButton" />-->
+
+<!--<Button-->
+    <!--android:id="@+id/buttonVoltar"-->
+    <!--style="@style/botaoCampo"-->
+    <!--android:layout_width="@dimen/tam_botao_lado"-->
+    <!--android:layout_height="@dimen/tam_botao_altura"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_marginLeft="80dp"-->
+    <!--android:text="Voltar"-->
+    <!--android:textSize="@dimen/altTextButton" />-->
+
+
+</RelativeLayout>

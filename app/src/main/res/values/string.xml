@@ -13,7 +13,7 @@
     <string name="B_Voltar">Voltar</string>
     <string name="B_Excluir">Excluir</string>
     <string name="B_Proximo">Próximo</string>
-    <string name="B_Selecionar">Selecionar</string>
+
 
     <!--tela de inicio-->
    <string name="abertura_mensagem1">A única pessoa com a qual você pode se comparar é com você mesmo no passado</string>
@@ -23,8 +23,8 @@
     <string name="aviso1_mensagem2">Avalie cada área da sua vida separadamente</string>
     <string name="aviso1_mensagem3">Considere nota 1 para áreas que estão muito abaixo que você deseja</string>
     <string name="aviso1_mensagem4">Use nota 9 para áreas onde tudo está perfeito e não precisa melhorar</string>
-
-
+    <string name="aviso0_mensagem0">A única pessoa com a qual você\n
+    pode se comparar é com você mesmo\n no passado.\n(Sigmund Freud)</string>
 
     <!--Abas-->
     <string name="titulo1">Física</string>
@@ -35,6 +35,15 @@
     <string name="titulo6">Profissional</string>
     <string name="titulo7">Financeira</string>
 
+
+    <!--Abas-->
+    <string name="dica1">Pratique exercícios, faça um check-up médico, movimente-se, coma de forma equilibrada.</string>
+    <string name="dica2">Busque se espiritualizar mais, participe de sua comunidade, Estude os livros sagrados, pratique o bem</string>
+    <string name="dica3">Perdoe seus familiares, se coloque no lugar deles, entenda-o. Comunique-se melhor, evite brigas desnecessárias, aproveite seu pais enquanto eles são vivos, curta seus filhos. Partilhe!</string>
+    <string name="dica4">Leia livros, matricule-se em um curso de seu interesse, aperfeiçoe-se, prepare-se para o futuro</string>
+    <string name="dica5">Visite um projeto social, participe de um grupo, ajude um necessitado, faça uma doação, quem doa sempre receberá mais do que dá!</string>
+    <string name="dica6">Busque seus objetivos, você é responsável pela sua vida, seu trabalho tem que lhe trazer felicidade pois é nele que você passa a melhor parte da sua vida</string>
+    <string name="dica7">Controle seu gastos, avalie suas contas, faça um plano para parar as dívidas, controle os gastos desnecessários, guarde dinheiro, invista e você poderá conquistar seus maiores sonhos.</string>
 
     <string name="texto1">
     Saúde Física é representada pelo seu bem-estar físico.\n
