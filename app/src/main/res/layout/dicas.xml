@@ -9,7 +9,7 @@ android:paddingTop="12dp"
 >
 
     <TextView
-        android:id="@+id/saude1"
+        android:id="@+id/Not_fis"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -21,10 +21,10 @@ android:paddingTop="12dp"
         android:textSize="@dimen/texto_A"
         android:textStyle="bold" />
     <TextView
-        android:id="@+id/dica1"
+        android:id="@+id/porcentagem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/saude1"
+        android:layout_below="@id/Not_fis"
         android:layout_marginLeft="12dp"
         android:layout_marginTop="3dp"
         android:paddingTop="3dp"
@@ -35,7 +35,7 @@ android:paddingTop="12dp"
 
     <TextView
         android:id="@+id/saude2"
-        android:layout_below="@id/dica1"
+        android:layout_below="@id/porcentagem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"

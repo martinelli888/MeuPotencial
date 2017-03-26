@@ -1,6 +1,5 @@
 package meupotencial.com.br.fragments;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -26,7 +25,7 @@ public class Fragment5 extends Fragment {
     }
 
     public interface Comunicador5 {
-        public void enviar(Integer valor, int position);
+        void enviar(Integer valor, int position);
     }
 
     @Nullable

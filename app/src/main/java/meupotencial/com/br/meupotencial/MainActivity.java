@@ -1,6 +1,7 @@
 package meupotencial.com.br.meupotencial;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,6 +14,8 @@ import android.widget.TabHost;
 import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
+
+import butterknife.OnClick;
 import meupotencial.com.br.adapters.MyFragmentPagerAdapter;
 import meupotencial.com.br.fragments.Fragment1;
 import meupotencial.com.br.fragments.Fragment1.Comunicador1;
@@ -23,6 +26,7 @@ import meupotencial.com.br.fragments.Fragment5;
 import meupotencial.com.br.fragments.Fragment6;
 import meupotencial.com.br.fragments.Fragment7;
 import meupotencial.com.br.fragments.Resultado;
+import meupotencial.com.br.Registro.Armazenado;
 
 public class MainActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener, TabHost.OnTabChangeListener, Comunicador1, Fragment2.Comunicador2, Fragment3.Comunicador3, Fragment4.Comunicador4, Fragment5.Comunicador5, Fragment6.Comunicador6, Fragment7.Comunicador7, Resultado.ComunicadorResultado, Resultado.ComunicadorReiniciar {
 
@@ -34,6 +38,14 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     public static List<Integer> listaValores;
     public static Integer[] valores;
     public static Integer somaValores = 0;
+    int pega_fis;
+    int pega_esp;
+    int pega_fam;
+    int pega_int;
+    int pega_soc;
+    int pega_pro;
+    int pega_fin;
+    Armazenado armazenadoNovo;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -54,22 +66,34 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
         if (somaValores == null) {
             somaValores = 0;
         }
-
-
     }
 
 
-    public void salvar(Integer valor, int position) {
-        //listaValores.add(position, valor);
 
-        valores[position] = valor;
 
-        SharedPreferences sharedPreferences = getSharedPreferences(MINHAS_PREFERENCIAS, 0);
-        SharedPreferences.Editor editor = sharedPreferences.edit();
 
-        editor.putFloat("valor", valorRecebido);
+    @OnClick(R.id.Depositar)
+    public void depositar() {
 
-        editor.commit();
+        if (armazenadoNovo == null) {
+         Armazenado armazenadoNovo = new Armazenado();}
+        else{
+            armazenadoNovo.setNfis_Armazenado(pega_fis);
+            armazenadoNovo.setNesp_Armazenado(pega_esp);
+            armazenadoNovo.setNfam_Armazenado(pega_fam);
+            armazenadoNovo.setNint_Armazenado(pega_int);
+            armazenadoNovo.setNint_Armazenado(pega_soc);
+            armazenadoNovo.setNint_Armazenado(pega_pro);
+            armazenadoNovo.setNint_Armazenado(pega_fin);
+        }
+            //Sprinkles vai salvar o usuario editado como esta
+            armazenadoNovo.save();
+            /* Aqui, a ideia é fazer com que esse intent seja fechada e enviar um extra para
+     * a activity que tem a lista de usuário dizendo que o usuário foi salvo com sucesso! */
+            Intent i = new Intent(MainActivity.this, dicas.class);
+            Toast.makeText(MainActivity.this, "Avaliação salva!", Toast.LENGTH_SHORT).show();
+            startActivity(i);
+            finish();
     }
 
     private void initTabHost() {
@@ -133,12 +157,42 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
         return somaValores;
     }
 
+
+
+    public void salvar(Integer valor, int position) {
+        //listaValores.add(position, valor);
+
+        valores[position] = valor;
+
+        SharedPreferences sharedPreferences = getSharedPreferences(MINHAS_PREFERENCIAS, 0);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+
+        editor.putFloat("valor", valorRecebido);
+        if(position == 0);
+        {pega_fis = valorRecebido;}
+        if(position == 1);
+        {pega_esp = valorRecebido;}
+        if(position == 2);
+        {pega_fam = valorRecebido;}
+        if(position == 3);
+        {pega_int = valorRecebido;}
+        if(position == 4);
+        {pega_soc = valorRecebido;}
+        if(position == 5);
+        {pega_pro = valorRecebido;}
+        if(position == 6);
+        {pega_fin = valorRecebido;}
+
+        editor.commit();
+    }
+
     @Override
     public void reiniciar() {
         //listaValores = new ArrayList<>();
         somaValores = 0;
         valores = new Integer[7];
     }
+
 
     public class FakeContent implements TabHost.TabContentFactory {
         Context context;

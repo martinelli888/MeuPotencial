@@ -35,6 +35,7 @@
     <string name="titulo6">Profissional</string>
     <string name="titulo7">Financeira</string>
 
+ <string name="Titulo_List_View">Meus Registros</string>
 
     <!--Abas-->
     <string name="dica1">Pratique exercícios, faça um check-up médico, movimente-se, coma de forma equilibrada.</string>
@@ -107,7 +108,8 @@
     <string name="Resultado7">9</string>
 
     <!--Histórico-->
-    <string name="T_data">10/10/10</string>
+    <string name="T_resultado">03/01/17</string>
+    <string name="T_data">03/01/17</string>
     <string name="Abrev_Fisica">FIS</string>
     <string name="Abrev_Espiritual">ESP</string>
     <string name="Abrev_Familiar">FAM</string>
@@ -123,6 +125,23 @@
     <string name="Not_soc">9</string>
     <string name="Not_pro">9</string>
     <string name="Not_fin">9</string>
+
+    <string name="Not_fis_r">9</string>
+    <string name="Not_esp_r">9</string>
+    <string name="Not_fam_r">9</string>
+    <string name="Not_int_r">9</string>
+    <string name="Not_soc_r">9</string>
+    <string name="Not_pro_r">9</string>
+    <string name="Not_fin_r">9</string>
+
+
+
+
+
+
+
+
+
 <!--resumo-->
 
     <string name="Dica_titulo">Você pode começar por:</string>

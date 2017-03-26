@@ -26,7 +26,7 @@ public class Fragment7 extends Fragment {
     }
 
     public interface Comunicador7 {
-        public void enviar(Integer valor, int position);
+        void enviar(Integer valor, int position);
     }
 
     @Nullable

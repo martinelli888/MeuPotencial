@@ -29,6 +29,17 @@
             android:label="MeuPotencial">
         </activity>
 
+        <activity android:name=".Registro_List_Activity"
+            android:label="MeuPotencial">
+        </activity>
+
+
+
+
+
+
+
+
         <activity
                 android:name="com.google.android.gms.ads.AdActivity"
                 android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"

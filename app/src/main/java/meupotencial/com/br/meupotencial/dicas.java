@@ -6,15 +6,16 @@ import android.widget.EditText;
 import android.widget.Toast;
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import meupotencial.com.br.Registro.Deposito;
 import se.emilsjolander.sprinkles.Query;
 import static meupotencial.com.br.meupotencial.R.layout.dicas;
 
 // busca ultimo deposito
 public class dicas extends AppCompatActivity{
 
-    @Bind(R.id.saude1)
+    @Bind(R.id.Not_fis)
     EditText Saude1;
-    @Bind(R.id.dica1)
+    @Bind(R.id.porcentagem)
     EditText dica1;
 
     @Bind(R.id.saude2)

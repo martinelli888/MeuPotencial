@@ -25,11 +25,11 @@ public class Resultado extends android.support.v4.app.Fragment {
     }
 
     public interface ComunicadorReiniciar {
-        public void reiniciar();
+        void reiniciar();
     }
 
     public interface ComunicadorResultado {
-        public Integer calcularResultado();
+        Integer calcularResultado();
     }
 
     @Nullable
