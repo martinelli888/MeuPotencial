@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.OnClick;
+import meupotencial.com.br.Registro.Deposito;
 import meupotencial.com.br.adapters.MyFragmentPagerAdapter;
 import meupotencial.com.br.fragments.Fragment1;
 import meupotencial.com.br.fragments.Fragment1.Comunicador1;
@@ -45,7 +46,8 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     int pega_soc;
     int pega_pro;
     int pega_fin;
-    Armazenado armazenadoNovo;
+    String pega_data = "15mar2017";
+    Deposito DepositoNovo;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -75,19 +77,20 @@ public class MainActivity extends AppCompatActivity implements ViewPager.OnPageC
     @OnClick(R.id.Depositar)
     public void depositar() {
 
-        if (armazenadoNovo == null) {
-         Armazenado armazenadoNovo = new Armazenado();}
+        if (DepositoNovo == null) {
+         Deposito DepositoNovo = new Deposito();}
         else{
-            armazenadoNovo.setNfis_Armazenado(pega_fis);
-            armazenadoNovo.setNesp_Armazenado(pega_esp);
-            armazenadoNovo.setNfam_Armazenado(pega_fam);
-            armazenadoNovo.setNint_Armazenado(pega_int);
-            armazenadoNovo.setNint_Armazenado(pega_soc);
-            armazenadoNovo.setNint_Armazenado(pega_pro);
-            armazenadoNovo.setNint_Armazenado(pega_fin);
+            DepositoNovo.setData_deposito(pega_data);
+            DepositoNovo.setNfis(pega_fis);
+            DepositoNovo.setNesp(pega_esp);
+            DepositoNovo.setNfam(pega_fam);
+            DepositoNovo.setNint(pega_int);
+            DepositoNovo.setNint(pega_soc);
+            DepositoNovo.setNint(pega_pro);
+            DepositoNovo.setNint(pega_fin);
         }
             //Sprinkles vai salvar o usuario editado como esta
-            armazenadoNovo.save();
+            DepositoNovo.save();
             /* Aqui, a ideia é fazer com que esse intent seja fechada e enviar um extra para
      * a activity que tem a lista de usuário dizendo que o usuário foi salvo com sucesso! */
             Intent i = new Intent(MainActivity.this, dicas.class);
